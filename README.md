@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# Workout Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application for tracking workouts, exercises, and fitness progress.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Track workouts with start and end times
+- Add exercises with sets and reps
+- Categorized exercise selection
+- Dark/Light theme support
+- Workout history with detailed logs
+- Edit and delete workout entries
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- React Native with Expo
+- TypeScript
+- AsyncStorage for local data persistence
+- React Native DateTimePicker
+- Expo Vector Icons
 
-   ```bash
-    npx expo start
-   ```
+## Getting Started
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/ShajaatAli/Tracker.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
 
-## Learn more
+```bash
+cd Tracker
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Start the development server:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+4. Run on your device or emulator:
 
-Join our community of developers creating universal apps.
+- Scan the QR code with Expo Go (Android)
+- Press 'i' for iOS simulator
+- Press 'a' for Android emulator
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Project Structure
+
+```
+app/
+├── components/        # Reusable components
+├── context/          # Theme context
+└── _layout.tsx       # App layout and navigation
+```
+
+## Contributing
+
+Feel free to submit issues and pull requests.
